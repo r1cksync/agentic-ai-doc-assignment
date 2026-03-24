@@ -1,0 +1,190 @@
+SOFTWARE DEVELOPMENT AND LICENSING AGREEMENT
+
+Contract Number: SDC-2026-00142
+Effective Date: February 1, 2026
+Expiration Date: January 31, 2028
+
+PARTIES:
+- Client: Nexus Global Technologies Inc., incorporated in Delaware, USA
+  Address: 450 Innovation Drive, Suite 800, San Jose, CA 95134
+  Representative: James Mitchell, Chief Technology Officer
+  
+- Developer: CloudForge Solutions Ltd., incorporated in Ontario, Canada
+  Address: 200 Bay Street, Suite 1500, Toronto, ON M5J 2J5
+  Representative: Dr. Priya Sharma, Managing Director
+
+RECITALS:
+WHEREAS, Nexus Global Technologies Inc. ("Client") requires the development of a custom enterprise resource planning (ERP) platform with integrated artificial intelligence capabilities;
+WHEREAS, CloudForge Solutions Ltd. ("Developer") possesses the technical expertise and resources necessary to design, develop, and deliver said platform;
+NOW, THEREFORE, in consideration of the mutual covenants herein, the parties agree as follows:
+
+ARTICLE 1: SCOPE OF WORK
+
+1.1 Project Description
+The Developer shall design, develop, test, and deploy a cloud-native ERP platform ("the Platform") with the following core modules:
+(a) Financial Management: General ledger, accounts payable/receivable, budgeting, and financial reporting with AI-powered forecasting
+(b) Human Resources: Employee lifecycle management, payroll processing, performance tracking, and AI-based talent analytics
+(c) Supply Chain: Inventory management, procurement, vendor management, and AI-driven demand forecasting
+(d) Customer Relationship Management: Sales pipeline, customer service, marketing automation with AI lead scoring
+(e) Business Intelligence: Real-time dashboards, ad-hoc reporting, natural language querying
+
+1.2 Technical Requirements
+The Platform shall be built using the following technology stack:
+- Backend: Microservices architecture using Kubernetes, Node.js, and Python
+- Frontend: React.js with TypeScript
+- Database: PostgreSQL for transactional data, MongoDB for unstructured data, Redis for caching
+- AI/ML: TensorFlow and PyTorch for model training, ONNX Runtime for inference
+- Cloud Infrastructure: Amazon Web Services (AWS) with multi-region deployment
+- Security: SOC 2 Type II compliance, AES-256 encryption at rest, TLS 1.3 in transit
+
+1.3 Deliverables
+Phase 1 (Months 1-4): Architecture design, database schema, API specifications, UI/UX prototypes
+Phase 2 (Months 5-10): Core module development, unit testing, integration testing
+Phase 3 (Months 11-16): AI/ML model development and integration, performance optimization
+Phase 4 (Months 17-20): User acceptance testing, security audit, deployment
+Phase 5 (Months 21-24): Post-launch support, bug fixes, feature enhancements
+
+ARTICLE 2: COMPENSATION
+
+2.1 Total Contract Value
+The total compensation for all services described herein shall not exceed Three Million Five Hundred Thousand US Dollars ($3,500,000.00).
+
+2.2 Payment Schedule
+(a) Upon execution of this Agreement: $350,000.00 (10%)
+(b) Completion of Phase 1: $525,000.00 (15%)
+(c) Completion of Phase 2: $875,000.00 (25%)
+(d) Completion of Phase 3: $700,000.00 (20%)
+(e) Completion of Phase 4: $700,000.00 (20%)
+(f) Completion of Phase 5: $350,000.00 (10%)
+
+2.3 Additional Services
+Any work beyond the scope defined in Article 1 shall be billed at the following rates:
+- Senior Engineer: $250/hour
+- AI/ML Specialist: $300/hour  
+- Project Manager: $200/hour
+- QA Engineer: $175/hour
+
+2.4 Late Payment
+Payments not received within thirty (30) days of invoice date shall incur interest at a rate of 1.5% per month compounded monthly.
+
+ARTICLE 3: INTELLECTUAL PROPERTY
+
+3.1 Ownership
+Upon full payment, all intellectual property rights in the Platform shall transfer to the Client, including:
+(a) Source code and documentation
+(b) Database schemas and configurations
+(c) AI/ML models trained on Client data
+(d) UI/UX designs and assets
+
+3.2 Pre-existing IP
+The Developer retains all rights to pre-existing libraries, frameworks, and tools used in the development that were created prior to this Agreement. These are licensed to the Client under a perpetual, non-exclusive license.
+
+3.3 Open Source Components
+The Developer shall maintain a bill of materials listing all open-source components used, including license types. No component with a copyleft license (GPL, AGPL) shall be used without prior written consent from the Client.
+
+ARTICLE 4: CONFIDENTIALITY
+
+4.1 Definition
+"Confidential Information" includes all non-public technical, business, and financial information disclosed by either party, including but not limited to: algorithms, trade secrets, customer data, pricing strategies, and business plans.
+
+4.2 Obligations
+Each party agrees to:
+(a) Protect Confidential Information with at least the same degree of care used for its own confidential information
+(b) Not disclose Confidential Information to third parties without prior written consent
+(c) Limit access to employees and contractors with a need to know
+(d) Return or destroy all Confidential Information upon termination
+
+4.3 Duration
+Confidentiality obligations survive for five (5) years after the termination of this Agreement.
+
+ARTICLE 5: WARRANTIES AND REPRESENTATIONS
+
+5.1 Developer Warranties
+The Developer warrants that:
+(a) The Platform shall conform to the specifications in Article 1 for a period of twelve (12) months after deployment
+(b) The Platform shall be free from material defects and security vulnerabilities
+(c) All deliverables shall be original work and shall not infringe any third-party intellectual property rights
+(d) The development team shall maintain at least five (5) senior engineers dedicated to the project throughout its duration
+
+5.2 Performance Guarantees
+The Platform shall meet the following performance benchmarks:
+(a) API response time: 95th percentile under 200ms
+(b) System uptime: 99.95% availability (excluding scheduled maintenance)
+(c) Concurrent users: Support for at least 10,000 simultaneous users
+(d) Data processing: Real-time analytics dashboard refresh under 5 seconds
+
+ARTICLE 6: LIMITATION OF LIABILITY
+
+6.1 Cap on Liability
+Neither party's total aggregate liability under this Agreement shall exceed the total contract value of $3,500,000.00.
+
+6.2 Exclusion of Consequential Damages
+Neither party shall be liable for indirect, incidental, special, consequential, or punitive damages, including lost profits, lost revenue, or business interruption.
+
+6.3 Exceptions
+The limitations in this Article do not apply to:
+(a) Breaches of confidentiality obligations
+(b) Indemnification obligations
+(c) Willful misconduct or gross negligence
+
+ARTICLE 7: TERMINATION
+
+7.1 Termination for Convenience
+Either party may terminate this Agreement with ninety (90) days' written notice. In such case, the Client shall pay for all work completed to date plus any non-cancellable commitments.
+
+7.2 Termination for Cause
+Either party may terminate immediately if the other party:
+(a) Materially breaches this Agreement and fails to cure within thirty (30) days of notice
+(b) Becomes insolvent, files for bankruptcy, or ceases operations
+(c) Fails to meet three (3) or more consecutive milestone deadlines
+
+ARTICLE 8: DISPUTE RESOLUTION
+
+8.1 Negotiation
+The parties shall first attempt to resolve disputes through good-faith negotiation between senior executives within thirty (30) days.
+
+8.2 Mediation
+If negotiation fails, disputes shall be submitted to mediation administered by the American Arbitration Association.
+
+8.3 Arbitration
+If mediation fails, disputes shall be resolved by binding arbitration in San Francisco, California, under AAA Commercial Arbitration Rules. The arbitrator's decision shall be final and enforceable in any court of competent jurisdiction.
+
+8.4 Governing Law
+This Agreement shall be governed by the laws of the State of California, without regard to conflict of law principles.
+
+ARTICLE 9: GENERAL PROVISIONS
+
+9.1 Force Majeure
+Neither party shall be liable for delays caused by events beyond its reasonable control, including natural disasters, pandemics, war, government actions, or infrastructure failures.
+
+9.2 Assignment
+Neither party may assign this Agreement without prior written consent, except in connection with a merger, acquisition, or sale of substantially all assets.
+
+9.3 Entire Agreement
+This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations, representations, and agreements.
+
+9.4 Amendments
+Modifications to this Agreement must be in writing and signed by authorized representatives of both parties.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+
+Nexus Global Technologies Inc.
+Signature: ________________________
+Name: James Mitchell
+Title: Chief Technology Officer
+Date: February 1, 2026
+
+CloudForge Solutions Ltd.
+Signature: ________________________
+Name: Dr. Priya Sharma
+Title: Managing Director
+Date: February 1, 2026
+
+EXHIBIT A: DETAILED TECHNICAL SPECIFICATIONS
+(See attached 45-page technical specification document)
+
+EXHIBIT B: PROJECT TIMELINE AND MILESTONES
+(See attached Gantt chart)
+
+EXHIBIT C: SERVICE LEVEL AGREEMENT
+(See attached SLA document)
