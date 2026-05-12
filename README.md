@@ -1,3 +1,9 @@
+
+
+<img width="1917" height="934" alt="image" src="https://github.com/user-attachments/assets/dd15172f-3837-4ac5-b364-b471343fdf05" />
+
+<img width="1917" height="938" alt="image" src="https://github.com/user-attachments/assets/24262f20-216d-4581-a79e-01b09f940d4d" />
+
 ---
 
 ## CORE FEATURE 1: DOCUMENT INGESTION + OCR PIPELINE
